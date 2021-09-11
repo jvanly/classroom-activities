@@ -1,8 +1,9 @@
 .block_element {
   width: 355px;
-  background-color: lightblue;
+  background-color: rgb(58, 198, 245);
   padding: 35px;
 /* Add margin here. */
+  margin: auto;
 /* Add text align below */
 }
 
