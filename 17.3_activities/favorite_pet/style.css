@@ -1,14 +1,29 @@
-nav {
+.menu-item {
     display: inline-block;
-    margin: 1% auto;
+    width: 150px;
     position: sticky;
+    vertical-align: center;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    margin: 0 1% 1%;
+    background-color: teal;
 }
+nav {
+    background-color: white;
+    margin: 0 auto;
+}
+
 .wrapper {
     width: 1366px;
-    margin: 0 auto;
 }
 h1, h2 {font-family: 'Bungee Shade', cursive;
 }
+h1 {font-size: 56px;
+    top: -1.2em;
+}
+h2 {font-size: 42px;}
+p {font-size: 1.2em;}
 .pet-profile{
 
 
@@ -16,14 +31,18 @@ h1, h2 {font-family: 'Bungee Shade', cursive;
 aside {
     width: 20%;
     float: left;
+    background-color: turquoise;
+    padding: 2%;
+    margin-top: 4%;
 }
 .pet-info{
 
 
 }
 .maincontent {
-    width: 80%;
+    width: 72%;
     float: right;
+    padding: 0 2% 0;
 }
 .main-image1 {
     position: absolute;
