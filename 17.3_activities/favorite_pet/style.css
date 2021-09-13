@@ -1,0 +1,40 @@
+nav {
+    display: inline-block;
+    margin: 1% auto;
+    position: sticky;
+}
+.wrapper {
+    width: 1366px;
+    margin: 0 auto;
+}
+h1, h2 {font-family: 'Bungee Shade', cursive;
+}
+.pet-profile{
+
+
+}
+aside {
+    width: 20%;
+    float: left;
+}
+.pet-info{
+
+
+}
+.maincontent {
+    width: 80%;
+    float: right;
+}
+.main-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+.main {
+
+
+}
+.thumbnail {
+
+}
