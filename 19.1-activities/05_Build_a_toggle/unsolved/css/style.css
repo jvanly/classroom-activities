@@ -1,0 +1,19 @@
+/* Style your dropdown below! */
+#toggle {
+
+
+}
+.container {
+    text-align: center;
+    width: 200px;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    border: 1px solid black;
+    padding:5px;
+    text-align: center;
+}
