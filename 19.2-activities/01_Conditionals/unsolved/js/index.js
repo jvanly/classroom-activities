@@ -1,5 +1,5 @@
 $('.tab').on("click", function(){
-  if ($this).hasClass {"tab1")){
+  if ($(this).hasClass ("tab1")){
         $(".tab1").addClass("active");
         $(".tab2").removeClass("active");
 
@@ -7,7 +7,7 @@ $('.tab').on("click", function(){
         $("#tabContent2").css("display","none");
   }
 
-  else if ($this).hasClass {"tab2")){
+  else if ($(this).hasClass ("tab2")){
     $(".tab2").addClass("active");
     $(".tab1").removeClass("active");
   
