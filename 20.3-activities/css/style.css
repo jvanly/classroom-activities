@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em !important;
+}
+
+.navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 24px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.material-icons-outlined span {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+      
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+      
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+
+
+h1{
+    font-size: 3em;
+}
+#hero {
+    background-image: url("../images/hero-bkg-with-triangle@2x.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link {
+    color:white !important;
+}
+.nav-item.active {
+    text-decoration: underline;
+}
+.jumbotron {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    flex-direction: column;
+}
+.display-4 {
+    display: flex;
+    color:white;
+}
+.sectionHeading {
+    margin: auto;
+}
+.sectionHeading {
+    text-align: center;
+    margin: 1% 2% 5%;
+}
+.sectionHeading span {
+    color: #ffa300;
+    display: block;
+    font-size: .8em;
+}
+.adventureCard .card{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-3 {
+    background-image: url("../images/card bkg airplane.png");
+    background-repeat: no-repeat;
+
+}
