@@ -11,6 +11,7 @@
   background-color: lightblue;
   margin: 10px;
   padding: 10px;
+  justify-content: center;
 }
 /*
 The properties above are just used to display your flex container.
@@ -38,7 +39,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 - space-around
 - space-evenly
 */
-  justify-content: space-between;
+  justify-content: center;
 }
 .perfectlyCentered {
 /*
